@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body { margin: auto;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-image: url(https://elroy.twit.tv/sites/default/files/styles/twit_album_art_1400x1400/public/images/shows/this_week_in_space/hero/twis-hero.jpeg?itok=ieBqkQV1);
+ 
+}
+
+h1 {
+  margin: 40px;
+  color: aqua;
+}
+
+form {
+  background-color: #405148;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%); border-radius: 10px; border-style:  margin-left: 10px;
+
+  text-align: ;
+  padding: 15px;
+  width: fit-content;
+  /* margin: 10px auto; */
+  display: inline-block;
+
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+label {
+  display: inline-block;
+  text-align: left;
+  width: 120px;
+  padding: 6px;
+}
+.button{
+
+
+padding: 10px;
+margin: 10px;
+
+
+
+}
