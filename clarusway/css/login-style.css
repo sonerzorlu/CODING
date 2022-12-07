@@ -8,12 +8,12 @@
 body { margin: auto;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  background-image: url(https://elroy.twit.tv/sites/default/files/styles/twit_album_art_1400x1400/public/images/shows/this_week_in_space/hero/twis-hero.jpeg?itok=ieBqkQV1);
- 
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg); background-repeat: no-repeat ;
+background-position: center center; background-attachment: fixed; background-size: cover;
 }
 
 h1 {
-  margin: 40px;
+  margin: 110px 10px 0px 10px;
   color: aqua;
 }
 
@@ -21,10 +21,10 @@ form {
   background-color: #405148;
   background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%); border-radius: 10px; border-style:  margin-left: 10px;
 
-  text-align: ;
+  text-align: fit-content ;
   padding: 15px;
   width: fit-content;
-  /* margin: 10px auto; */
+  margin: 110px ;
   display: inline-block;
 
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
