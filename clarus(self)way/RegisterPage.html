@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="RegisterPage.css" />
+  </head>
+  <body>
+    <h1>REGISTER PAGE</h1>
+
+    <form action="">
+      <div>
+        <label for="firstname">First Name</label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="your first name..."
+        />
+      </div>
+      <div>
+        <label for="lastname">Last Name</label>
+        <input
+          type="text"
+          name="firstname"
+          id="lastname"
+          placeholder="your last name..."
+        />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="your password..."
+        />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="your email..."
+        />
+      </div>
+
+      <div>
+        <label for="date">Your Birthday</label>
+        <input
+          type="date"
+          name="date"
+          id="date"
+          placeholder="your birthday..."
+          value="01-01-2020"
+          min="01-01-2000"
+          max="01-01-2071"
+        />
+      </div>
+      <div>
+        <label for="phone">Your Phone Number</label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="your Phone Number..."
+        />
+      </div>
+
+      <div>
+        <label for="address">Adress</label>
+        <textarea for="adres" name="addtess" id="address" cols="20" rows="5">
+Adress</textarea
+        >
+      </div>
+      <div>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <option value="Afghanistan">Afghanistan</option>
+          <option value="Åland Islands">Åland Islands</option>
+          <option value="Albania">Albania</option>
+          <option value="Algeria">Algeria</option>
+          <option value="American Samoa">American Samoa</option>
+          <option value="Andorra">Andorra</option>
+       
+        </select>
+      </div>
+
+      <div >
+          <label for="gender">Gender</label>
+        <div class="gender-div">
+             <label for="gender">Gender</label>
+
+        <input type="radio" name="email" id="male" />
+        <label for="male">Male</label>
+
+        <input type="radio" name="email" id="female" />
+        <label for="female">Female</label>
+        </div>
+       
+      </div>
+
+      <div>
+         <label for="languages">Languages</label>
+       <div class="lang-div">
+        <input type="checkbox" name="languages" id="english" />
+        <label for="english">english</label>
+
+        <input type="checkbox" name="languages" id="francais" />
+        <label for="francais">english</label>
+
+        <input type="checkbox" name="languages" id="turkce" checked />
+        <label for="turkce">turkce</label>
+       </div>
+        
+ </div>
+        
+      </div>
+
+      <div>
+        <input type="submit" value="Save" />
+        <input type="reset" value="Clear" />
+      </div>
+    </form>
+  </body>
+</html>

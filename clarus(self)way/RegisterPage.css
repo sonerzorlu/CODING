@@ -1,0 +1,30 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: 'fantasy';
+}
+
+form{
+  background-color: antiquewhite;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 30px;  
+}
+
+
+label{
+display: inline-block;
+width: 100px;
+}
+
+.lang-div{ display: inline-block;}
+.gender-div{ display: inline-block;}
+
+.lang-div{
+width: fit-content;
+}
+
+.gender-div { width: auto;}
