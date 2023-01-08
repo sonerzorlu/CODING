@@ -1,0 +1,29 @@
+*{ background-color: rgb(241, 245, 245);}
+/* body{background-color: aquamarine;} */
+h1{color: red;
+cursor: pointer;}
+li{ 
+   display: inline-block
+   ; 
+   border: 2px solid rgb(32, 26, 18);
+   padding: 10px;
+   border-radius: 35%;
+   font-weight: bold;
+   font-size: x-large;
+   list-style-type: none;
+   background-color: antiquewhite;
+color: rgb(197, 122, 30);}
+
+li:hover{
+color: blueviolet;
+font-weight: 900;
+background-color: coral;
+}
+h1:hover{
+    opacity: 0.5;
+
+
+}
+.list{
+
+}
