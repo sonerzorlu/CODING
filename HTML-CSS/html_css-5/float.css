@@ -1,0 +1,37 @@
+*{
+    color: antiquewhite;
+    background-color: black;
+}.img-float{
+    width: 30%;
+    float: left;
+    margin-right: 0.8rem;
+}
+.par1{
+    border: 1px solid red;
+}
+.clearfix{
+    clear: both; 
+}
+/* .main-div{
+    width: 400px;
+} */
+.box{
+    float: left;
+    font-size: 2rem;
+}
+.box1{
+    background-color: rgb(55, 254, 188);
+    width: 40%;
+    
+}
+.box2{
+    background-color: magenta;
+    width: 35%;
+}
+.box3{
+    background-color: rgba(223, 161, 252, 0.748);
+    width: 15%;
+}
+.center{
+    text-align: center;
+}
