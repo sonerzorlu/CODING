@@ -1,5 +1,5 @@
 import Msg from "./Msg"
-
+import Msg from "./components/Msg";
 const Person = ({ name, tel, img }) => {
   //   console.log(props)
 
